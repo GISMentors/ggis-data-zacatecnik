@@ -1,0 +1,23 @@
+Obec Pøemyšlení (792403)
+
+OSM
+===
+ogr2ogr -skipfailures -clipsrc kn_kml_5514/792403_ku.kml ./buildings.shp ~/Downloads/czech-republic-latest.shp/buildings.shp
+
+
+
+WFS
+===
+http://geoportal.cuzk.cz/(S(3z3fcmo0tlv5mbzwf1ejp3tq))/Default.aspx?mode=TextMeta&side=wfs.INSPIRE&text=wfs.INSPIRE&head_tab=sekce-03-gp&menu=334
+
+KN
+==
+http://ec2-54-76-120-114.eu-west-1.compute.amazonaws.com/katastrdownloader/site/
+
+RASTR - ortofoto
+================
+EPSG:32633 - WGS 84 / UTM zone 33N
+
+
+
+
